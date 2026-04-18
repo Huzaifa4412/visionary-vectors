@@ -159,3 +159,25 @@ export const footerVariants = {
     },
   },
 };
+
+export const hoverSpring = {
+  scale: 1.02,
+  transition: { type: 'spring', stiffness: 400, damping: 10 }
+};
+
+export const tapSpring = {
+  scale: 0.95,
+  transition: { type: 'spring', stiffness: 400, damping: 10 }
+};
+
+export const floatingAnimation = {
+  hidden: { y: 0 },
+  show: {
+    y: [0, -15, 0],
+    transition: {
+      duration: 4,
+      repeat: Infinity,
+      ease: 'easeInOut',
+    },
+  },
+};

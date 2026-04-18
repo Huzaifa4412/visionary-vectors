@@ -6,7 +6,8 @@ import { fadeIn } from '../utils/motion';
 const InsightCard = ({ index, imgUrl, title, subtitle }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
-    className="flex md:flex-row flex-col gap-4"
+    whileHover={{ scale: 1.02 }}
+    className="flex md:flex-row flex-col gap-4 animated-border p-2 cursor-pointer bg-[rgba(255,255,255,0.02)] rounded-[34px]"
   >
     <img src={imgUrl} alt={title} className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover" />
     <div className="w-full flex justify-between items-center">

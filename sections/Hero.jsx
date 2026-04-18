@@ -13,7 +13,7 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
-      <div className="relative z-10 flex flex-col items-center justify-center">
+      <div className="relative z-20 flex flex-col items-center justify-center pointer-events-none">
         <motion.h1
           variants={textVariant(1.1)}
           className={styles.heroHeading}
@@ -37,7 +37,16 @@ const Hero = () => (
         className="relative w-full lg:-mt-[30px] md:-mt-[18px] -mt-[15px]  2xl:pl-[280px]"
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[20px] -top-[10px]" />
-        <img
+        <motion.img
+          variants={{
+            hidden: { y: 0 },
+            show: {
+              y: [0, -15, 0],
+              transition: { duration: 4, repeat: Infinity, ease: "easeInOut" }
+            }
+          }}
+          initial="hidden"
+          animate="show"
           src="/cover.png"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
