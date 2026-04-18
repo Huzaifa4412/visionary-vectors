@@ -7,7 +7,7 @@ import { TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
 
 const Contact = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id='contact' className={`${styles.paddings} relative z-10`}>
     <div className="absolute w-[300px] h-[300px] bg-[#a509ff] right-[10%] top-[20%] blur-[150px] opacity-30 z-0 pointer-events-none" />
     <motion.div
       variants={staggerContainer}

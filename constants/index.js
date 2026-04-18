@@ -1,46 +1,46 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/webdev.avif',
     title: 'Website Development',
     description: 'We architect and build high-performance, dynamic corporate websites and web applications focused on premium user experience and flawless scalability.'
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/SEO.avif',
     title: 'SEO Optimization',
     description: 'Data-driven on-page and off-page optimization strategies designed to dominate search engine rankings and multiply your organic lead generation.'
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/AICalling.avif',
     title: 'AI Calling Agents',
     description: 'Deploy intelligent, conversational AI voice agents capable of handling inbound support and outbound sales calls with human-like precision 24/7.'
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/AIchatbot.avif',
     title: 'AI Chatbots',
     description: 'Custom-trained AI chatbots engineered to seamlessly integrate into your platforms, resolving customer queries instantly and capturing high-intent leads.'
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/mobileapp.avif',
     title: 'Mobile App Development',
     description: 'End-to-end iOS and Android application development delivering intuitive interfaces, robust backend architecture, and engaging native experiences.'
   },
   {
     id: 'world-6',
-    imgUrl: '/planet-06.png',
+    imgUrl: '/aiautomation.avif',
     title: 'AI Automation Solutions',
     description: 'Streamline your operations by automating redundant workflows with bespoke AI integrations, reducing overhead costs and boosting team productivity.'
   },
 ];
 
 export const startingFeatures = [
-  'Discovery & Strategy: We conduct deep-dive consultations to align our technological architecture directly with your core business operations and strategic objectives.',
-  'Development & Integration: We architect robust, high-performance solutions—ranging from complex web platforms to cutting-edge AI integrations—tailored to your exact scale.',
-  'Deployment & Optimization: We ensure seamless global rollout, continuous system optimization, and reliable long-term support to guarantee sustained digital growth.',
+  'Discovery & Strategy: We consult to align our tech architecture with your core business goals and strategy.',
+  'Development & Integration: We build robust, high-performance solutions from web platforms to custom AI integrations.',
+  'Deployment & Optimization: We manage global rollouts and continuous optimization to ensure your long-term growth.',
 ];
 
 export const newFeatures = [

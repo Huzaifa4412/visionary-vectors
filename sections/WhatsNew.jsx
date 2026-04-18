@@ -31,12 +31,13 @@ const WhatsNew = () => (
 
       <motion.div
         variants={planetVariants('right')}
-        className={`flex-1 ${styles.flexCenter}`}
+        className={`flex-1 ${styles.flexCenter} `}
       >
         <img
-          src="/whats-new.png"
+          src="/aiattachment.avif"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
+          style={{ borderRadius: '20px' }}
         />
       </motion.div>
     </motion.div>
