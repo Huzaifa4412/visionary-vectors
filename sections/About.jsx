@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> Visionary Vectors </span> is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold">madness of the metaverse</span> of today, using only <span className="font-extrabold">VR</span> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <span className="font-extrabold">explore</span> the madness of the metaverse by scrolling down
+        <span className="font-extrabold"> Visionary Vectors </span> is a premier digital and AI agency focused on delivering holistic, enterprise-grade solutions. We transform your strategic vision into reality by leveraging <span className="font-extrabold">AI-driven innovation</span>, intelligent automation, and bespoke software design. From intelligent chatbots and voice agents to high-performance web and mobile platforms, we engineer scalable systems designed to accelerate business growth, optimize operations, and maximize your ROI. Let's <span className="font-extrabold">explore</span> our comprehensive suite of digital services by scrolling down.
       </motion.p>
 
       <motion.img
